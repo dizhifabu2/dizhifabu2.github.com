@@ -7,44 +7,7 @@
     <title>防屏蔽发布地址</title>
     <link rel="stylesheet" type="text/css" href="/style.css">
     <script src="/hm.js"></script><script type="text/javascript" src="/jquery-1.11.3.min.js"></script>
-    <script type="text/javascript">
-    $(function() {
-        function encodeUnicode(str) {
-            var res = [];
-            for (var i = 0; i < str.length; i++) {
-                res[i] = ("00" + str.charCodeAt(i).toString(16)).slice(-4);
-            }
-            return "\\u" + res.join("\\u");
-        }
-
-        function decodeUnicode(str) {
-            str = str.replace(/\\/g, "%");
-            return unescape(str);
-        }
-
-        　　
-        //var str = "\u9752\u9752\u8349\u9632\u5c4f\u853d";　
-        $("#l1").html(decodeUnicode($("#l1").text()));
-        $("#l2").html(decodeUnicode($("#l2").text()));
-        $("#l3").html(decodeUnicode($("#l3").text())); 
-        $("#l4").html(decodeUnicode($("#l4").text())); 
-        $("#l5").html(decodeUnicode($("#l5").text())); 
-        $("#l6").html(decodeUnicode($("#l6").text())); 
-        $("#l7").html(decodeUnicode($("#l7").text())); 
-        $("#l8").html(decodeUnicode($("#l8").text())); 
-        $("#l9").html(decodeUnicode($("#l9").text())); 
-        $("#l10").html(decodeUnicode($("#l10").text())); 
-        $("#l11").html(decodeUnicode($("#l11").text())); 
-        $("#l12").html(decodeUnicode($("#l12").text())); 
-        $("#l13").html(decodeUnicode($("#l13").text())); 
-        $("#l14").html(decodeUnicode($("#l14").text())); 
-        $("#l15").html(decodeUnicode($("#l15").text())); 
-        $("#l16").html(decodeUnicode($("#l16").text())); 
-        $("#l17").html(decodeUnicode($("#l17").text()));
-        $("#l18").html(decodeUnicode($("#l18").text()));
-        $("#l19").html(decodeUnicode($("#l19").text()));
-    })
-    </script>
+    
 
     </head><body>
 
